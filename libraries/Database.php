@@ -75,4 +75,4 @@ public function cancelTransaction(){
 public function debugDumpParams(){
     return $this->stmt->debugDumpParams();
 }
-}//end of database class
+}
