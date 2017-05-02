@@ -51,10 +51,5 @@
                 </li>
 
               </ul>
-              <h3>Forum Statistics</h3>
-              <ul>
-                <li>Total Number of Users: <strong>52</strong></li>
-                <li>Total Number of Topics: <strong>10</strong></li>
-                <li>Total Number of Categories: <strong>5</strong></li>
-              </ul>
+            
 <?php include('includes/footer.php'); ?>
