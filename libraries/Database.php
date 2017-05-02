@@ -8,6 +8,7 @@ class Database{
     private $dbh;
     private $error;
     private $stmt;
+    
     public function __construct(){
         // Set DSN
         $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbname;
