@@ -8,9 +8,9 @@
                     </div>
                     <div class="col-md-10">
                       <div class="topic-content pull-right">
-                        <h3><a href="topic.html">How did you learn css and html</a></h3>
+                        <h3><a href="topic.php">How did you learn css and html</a></h3>
                         <div class="topic-info">
-                          <a href="category.html">Development</a> >> <a href="profile.html">Brad</a>
+                          <a href="category.php">Development</a> >> <a href="profile.html">Brad</a>
                           <span class="badge pull-right">3</span>
                         </div>
                       </div>
@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-md-10">
                       <div class="topic-content pull-right">
-                        <h3><a href="topic.html">How to create page dynamically in php</a></h3>
+                        <h3><a href="topic.php">How to create page dynamically in php</a></h3>
                         <div class="topic-info">
                           <a href="category.html">Development</a> >> <a href="profile.html">Brad</a>
                           <span class="badge pull-right">3</span>
