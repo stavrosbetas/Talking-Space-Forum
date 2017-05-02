@@ -43,9 +43,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="register.html">Create an acount</a></li>
-            <li><a href="create.html">create topic</a></li>
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="register.php">Create an acount</a></li>
+            <li><a href="create.php">create topic</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
