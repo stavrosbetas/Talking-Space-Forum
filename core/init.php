@@ -1,4 +1,8 @@
-<?php/*
+<?php
+//Start Session
+session_start();
+
+/*
 *Create autoloader for our classes
 */
 
