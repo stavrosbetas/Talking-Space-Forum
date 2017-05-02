@@ -1,6 +1,8 @@
 <?php/*
 *Create autoloader for our classes
 */
+
+//Include Configuration
 require_once('config/config.php');
 
 //Autoload Classes
