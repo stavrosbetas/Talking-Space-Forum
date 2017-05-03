@@ -27,4 +27,33 @@
       return $results;
     }
 
+    /*
+    *Get # Total of Topics
+    */
+    public function getTotalTopics(){
+      $this->db->query('SELECT * FROM users');
+      $rows = $this->db->resultset();
+      return $this->rowCount();
+    }
+
+    /*
+    *Get # Total of Categories
+    */
+    public function getTotalCategories(){
+      $this->db->query('SELECT * FROM categories');
+      $rows = $this->db->resultset();
+      return $this->rowCount();
+    }
+
+    /*
+    *Get # Total of Replies
+    */
+    public function getTotalReplies($topic_id){
+      $this->db->query('SELECT * FROM replies WHERE topi_id = '.$topic_id);
+      $rows = $this->db->resultset();
+      return $this->rowCount();
+    }
+
+
+
   }
