@@ -15,3 +15,15 @@ function replyCount($topic_id){
   return $db->rowCount();
 
 }
+
+/*
+* Get Categories
+*/
+function getCategories(){
+  $db = new Database;
+  $db->query("SELECT * FROM categories");
+  //Assign the result Set
+  $results = $db->resultset();
+
+  return $results;
+}
