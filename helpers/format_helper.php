@@ -1,4 +1,14 @@
-<?php 
+<?php
+/*
+*Function formatDate
+*/
+function formatDate($date){
+  $date = date("F j, Y, g:i a",strtotime($date));
+  return $date;
+}
+
+
+
 /*
 *Url Format Function
 */

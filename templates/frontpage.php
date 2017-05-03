@@ -9,10 +9,11 @@
                     </div>
                     <div class="col-md-10">
                       <div class="topic-content pull-right">
-                        <h3><a href="topic.php"><?php echo $topic->title; ?></a></h3>
+                        <h3><a href="topic.php?topic=<?php echo urlformat($topic->id); ?>"><?php echo $topic->title; ?></a></h3>
                         <div class="topic-info">
                           <a href="topics.php?category=<?php echo urlformat($topic->category_id); ?>"><?php echo $topic->name; ?></a> >>
-                          <a href="topics.php?user=<?php echo urlformat($topic->user_id); ?>"><?php echo $topic->username?></a>
+                          <a href="topics.php?user=<?php echo urlformat($topic->user_id); ?>"><?php echo $topic->username?></a> >>
+                          <?php echo formatDate($topic->create_date); ?>
                           <span class="badge pull-right">3</span>
                         </div>
                       </div>
