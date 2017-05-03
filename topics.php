@@ -9,4 +9,3 @@
 
   echo $template;
 ?>
-<?php include('templates/includes/header.php'); ?>

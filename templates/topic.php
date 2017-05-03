@@ -1,4 +1,6 @@
-<ul id="topics">
+<?php include('includes/header.php'); ?>
+
+          <ul id="topics">
                 <li class="topic" id="main-topic">
                   <div class="row">
                     <div class="col-md-2">
@@ -86,4 +88,5 @@
                 </div>
                 <button name="replybtn" type="submit" class="btn btn-default">Submit</button>
               </form>
-          <?php include('templates/includes/footer.php'); ?>
+
+          <?php include('includes/footer.php'); ?>

@@ -5,8 +5,5 @@
   $template = new Template('templates/topic.php');
 
 //Assign Vars
-
-
   echo $template;
 ?>
-<?php include('templates/includes/header.php'); ?>
