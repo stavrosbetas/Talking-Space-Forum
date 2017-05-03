@@ -9,7 +9,7 @@
                     </div>
                     <div class="col-md-10">
                       <div class="topic-content pull-right">
-                        <h3><a href="topic.php">How did you learn css and html</a></h3>
+                        <h3><a href="topic.php"><?php echo $topic->title; ?></a></h3>
                         <div class="topic-info">
                           <a href="category.php">Development</a> >> <a href="profile.html">Brad</a>
                           <span class="badge pull-right">3</span>
