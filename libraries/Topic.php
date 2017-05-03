@@ -31,7 +31,7 @@
     *Get # Total of Topics
     */
     public function getTotalTopics(){
-      $this->db->query('SELECT * FROM users');
+      $this->db->query('SELECT * FROM topics');
       $rows = $this->db->resultset();
       return $this->rowCount();
     }
