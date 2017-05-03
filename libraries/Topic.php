@@ -28,12 +28,23 @@
     }
 
     /*
+    *Get # Total Users
+    */
+    public function getTotalUsers(){
+      $this->db->query('SELECT * FROM users');
+      $rows = $this->db->resultset();
+      return $this->db->rowCount();
+    }
+
+
+
+    /*
     *Get # Total of Topics
     */
     public function getTotalTopics(){
       $this->db->query('SELECT * FROM topics');
       $rows = $this->db->resultset();
-      return $this->rowCount();
+      return $this->db->rowCount();
     }
 
     /*
@@ -42,7 +53,7 @@
     public function getTotalCategories(){
       $this->db->query('SELECT * FROM categories');
       $rows = $this->db->resultset();
-      return $this->rowCount();
+      return $this->db->rowCount();
     }
 
     /*
@@ -51,7 +62,7 @@
     public function getTotalReplies($topic_id){
       $this->db->query('SELECT * FROM replies WHERE topi_id = '.$topic_id);
       $rows = $this->db->resultset();
-      return $this->rowCount();
+      return $this->db->rowCount();
     }
 
 
