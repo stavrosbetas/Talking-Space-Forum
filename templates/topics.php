@@ -4,7 +4,7 @@
                 <li class="topic">
                   <div class="row">
                     <div class="col-md-2">
-                      <img class="avatar pull-left" src="images/gravatar.jpg"/>
+                      <img class="avatar pull-left" src="images/steve1.jpg"/>
                     </div>
                     <div class="col-md-10">
                       <div class="topic-content pull-right">
