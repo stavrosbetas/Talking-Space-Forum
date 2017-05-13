@@ -15,7 +15,6 @@ function replyCount($topic_id){
   return $db->rowCount();
 
 }
-
 /*
 * Get Categories
 */
