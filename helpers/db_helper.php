@@ -3,6 +3,7 @@
 /*
 *Database helper function // Get # replies of topic
 */
+//Test
 function replyCount($topic_id){
   $db = new Database;
   $db->query("SELECT * FROM replies WHERE topic_id = :topic_id");
