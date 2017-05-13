@@ -1,5 +1,4 @@
 <?php
-
 /*
 *Database helper function // Get # replies of topic
 */
